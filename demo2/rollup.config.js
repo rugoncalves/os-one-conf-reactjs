@@ -4,7 +4,7 @@ import babel from 'rollup-plugin-babel';
 import replace from '@rollup/plugin-replace';
 
 export default {
-    input: 'src/components/SelectWrapper.jsx',
+    input: 'src/components/index.js',
     output: {
         file: 'dist/select-wrapper.bundle.js', // Adjust the output file path
         format: 'iife', // Output format as an Immediately Invoked Function Expression
