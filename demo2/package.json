@@ -1,0 +1,21 @@
+{
+  "name": "demo2",
+  "version": "1.0.0",
+  "description": "In this demo we'll try to bundle a reactjs component to be used in OutSystems.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-select": "^5.7.4"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": ">0.2%, not dead"
+}
