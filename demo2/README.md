@@ -157,9 +157,9 @@ import replace from '@rollup/plugin-replace';
 export default {
     input: 'src/components/index.js',
     output: {
-        file: 'dist/select-wrapper.bundle.js', // Adjust the output file path
+        file: 'dist/reactjs-components.bundle.js', // Adjust the output file path
         format: 'iife', // Output format as an Immediately Invoked Function Expression
-        name: 'SelectWrapper', // Global variable name for the component
+        name: 'ReactJSComponents', // Global variable name for the component
         globals: {
             react: 'React', // External dependency globals
             'react-dom': 'ReactDOM'
