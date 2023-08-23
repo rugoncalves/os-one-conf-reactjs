@@ -56,32 +56,9 @@ Inside the public folder, create an index.html file with the following content:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React Select Wrapper</title>
-    <script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
-    <script src="../dist/select-wrapper.bundle.js"></script>
 </head>
 <body>
-    <h1>This is the test usage of package!</h1>
     <div id="root"></div>
-    <script type="text/javascript">
-        const optionList = [
-            { value: 'option1', label: 'Option 1' },
-            { value: 'option2', label: 'Option 2' },
-            // Add more options as needed
-        ];
-
-        const handleSelectChange = (selectedOption) => {
-            console.log('The user selected:', selectedOption);
-        };
-
-        const root = document.querySelector("#root");
-        if(root){
-            const reactroot = ReactDOM.createRoot(root);
-            reactroot.render(
-                React.createElement(SelectWrapper, { options: optionList, onChange: handleSelectChange })
-            );
-        }
-    </script>
 </body>
 </html>
 ```
