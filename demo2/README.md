@@ -10,7 +10,7 @@ In this demo we'll try to bundle a reactjs component to be used in OutSystems.
 ## Setting up this demo
 
 1. Setup Node.js and npm:
-Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download them from the official Node.js website: (https://nodejs.org/)[https://nodejs.org/]
+Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download them from the official Node.js website: [https://nodejs.org](https://nodejs.org/)
 
 2. Create Project Folder:
 Create a new folder for your project. You can name it something like "react-select-wrapper".
