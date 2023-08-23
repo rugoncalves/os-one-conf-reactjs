@@ -1,6 +1,6 @@
 $parameters.ReactRoot.render(
     React.createElement(
-        SelectWrapper, 
+        ReactJSComponents.SelectWrapper, 
         { 
             options: JSON.parse($parameters.OptionsList), 
             onChange: (option)=>{
