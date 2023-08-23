@@ -8,7 +8,7 @@ export default {
     output: {
         file: 'dist/select-wrapper.bundle.js', // Adjust the output file path
         format: 'iife', // Output format as an Immediately Invoked Function Expression
-        name: 'SelectWrapper', // Global variable name for the component
+        name: 'ReactJSComponents', // Global variable name for the component
         globals: {
             react: 'React', // External dependency globals
             'react-dom': 'ReactDOM'
