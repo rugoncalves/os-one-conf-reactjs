@@ -33,8 +33,13 @@ Install the necessary dependencies: React, React Select, and any other packages 
 npm install react react-dom react-select
 npm install react-scripts --save-dev
 ```
+6. Edit package.json
+Add the following command in the scripts section:
+```
+"start": "react-scripts start"
+```
 
-6. Create Project Structure:
+7. Create Project Structure:
 Create the following folder structure inside your project folder:
 ```
 ├── src/
@@ -47,7 +52,7 @@ Create the following folder structure inside your project folder:
 └── package.json
 ```
 
-7. Create HTML File:
+8. Create HTML File:
 Inside the public folder, create an index.html file with the following content:
 ```
 <!DOCTYPE html>
@@ -63,7 +68,7 @@ Inside the public folder, create an index.html file with the following content:
 </html>
 ```
 
-8. Create the App.js File:
+9. Create the App.js File:
 ```
 import React from 'react';
 import SelectWrapper from './components/SelectWrapper';
@@ -90,7 +95,7 @@ const App = () => {
 export default App;
 ```
 
-9. Create the index.js File:
+10. Create the index.js File:
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -99,7 +104,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-10. Create the SelectWrapper.jsx File:
+11. Create the SelectWrapper.jsx File:
 ```
 import React, { Component } from 'react';
 import Select from 'react-select';
@@ -115,21 +120,21 @@ export default class SelectWrapper extends Component {
 }
 ```
 
-11. Now it's time to test our code. In the terminal:
+12. Now it's time to test our code. In the terminal:
 ```
 npm run start
 ```
 A browser window should appear and the application we just created should appear containing a select with 2 options.
 
 ### Preparing the project to bundle
-12. Install additional tools for development:
+13. Install additional tools for development:
    a. rollup (several)
    b. babel (several)
 ```
 npm install rollup rollup-plugin-node-resolve rollup-plugin-commonjs rollup-plugin-babel @babel/core @babel/preset-react --save-de
 ```
 
-13. Create a (new) entry point for rollup
+14. Create a (new) entry point for rollup
 Create an entry point JavaScript file that imports all the JSX files from the components folder and exports them. Let's name this file index.js:
 ```
 import SelectWrapper from './SelectWrapper.jsx';
@@ -142,7 +147,7 @@ export {
 
 ```
 
-14. Add the configs for rollup:
+15. Add the configs for rollup:
 ```
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
@@ -174,7 +179,7 @@ export default {
 };
 ```
 
-15. Generate the bundle:
+16. Generate the bundle:
 ```
 npx rollup -c
 ```
