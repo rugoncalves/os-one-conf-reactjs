@@ -1,4 +1,4 @@
-var SelectWrapper = (function (exports, React, reactDom) {
+var ReactJSComponents = (function (exports, React, reactDom) {
   'use strict';
 
   function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
