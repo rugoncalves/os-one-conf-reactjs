@@ -12,7 +12,7 @@ class LikeButton extends React.Component {
       return React.createElement(
         'button',
         { 
-          className: 'btn btn-primary',
+          className: `btn ${this.props.className}`,
           onClick: () => {
               this.setState({ liked: true });
               this.props.callback && setTimeout(this.props.callback, 0);
