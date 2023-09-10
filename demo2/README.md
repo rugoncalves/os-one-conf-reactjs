@@ -47,9 +47,19 @@ Create the following folder structure inside your project folder:
 │   │   ├── SelectWrapper.jsx
 │   ├── App.js
 │   ├── index.js
-├── public/
-│   ├── index.html
-└── package.json
+└── public/
+    ├── index.html
+```
+
+```
+mkdir public  
+echo //TODO > public\index.html
+mkdir src                 
+cd src          
+mkdir components
+echo //TODO > components\SelectWrapper.jsx
+echo //TODO > App.js                            
+echo //TODO > index.js
 ```
 
 8. Create HTML File:
