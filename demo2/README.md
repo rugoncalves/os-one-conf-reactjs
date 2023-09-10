@@ -48,7 +48,7 @@ Create the following folder structure inside your project folder:
 │   ├── App.js
 │   ├── index.js
 └── public/
-    ├── index.html
+    └── index.html
 ```
 
 ```
