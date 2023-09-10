@@ -158,7 +158,7 @@ export {
 
 ```
 
-15. Add the configs for rollup:
+15. Add the configs for rollup.config.js:
 ```
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
