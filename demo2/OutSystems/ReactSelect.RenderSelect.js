@@ -4,7 +4,7 @@ $parameters.ReactRoot.render(
         { 
             options: JSON.parse($parameters.OptionsList), 
             onChange: (option)=>{
-                $actions.OnChangeReact(JSON.stringify(option));
+                $actions.OnChangeSelect(JSON.stringify(option));
             } 
         }
     )
