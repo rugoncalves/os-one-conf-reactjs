@@ -60,6 +60,7 @@ mkdir components
 echo //TODO > components\SelectWrapper.jsx
 echo //TODO > App.js                            
 echo //TODO > index.js
+cd..
 ```
 
 8. Create HTML File:
