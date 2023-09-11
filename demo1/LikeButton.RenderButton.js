@@ -3,7 +3,6 @@ $parameters.ReactRoot.render(
         LikeButton, 
         { 
             /* Configs to LikeButton */
-            ref: $parameters.ReactRoot.customButtonRef,  
             commentID: 1, 
             callback: $actions.ButtonClicked, 
             className: $parameters.ExtendedClass 
