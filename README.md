@@ -3,7 +3,7 @@
 
 # Presentation
 The presentation was held on September 12, at 2pm, in Lisbon (TMI).
-And the slides can be found in (here)[/#presentation\ONE.2023 Integrating ReactJS Components in OutSystems.pdf]
+And the slides can be found in (here)[https://github.com/rugoncalves/os-one-conf-reactjs/tree/main/%23presentation]
 
 # Code
 All the code that was made live and the code that was pre-prepared, is available in this repository.
